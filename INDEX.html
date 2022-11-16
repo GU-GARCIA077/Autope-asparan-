@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../Atividade Site Auto Peças Paraná/logomarca.png" type="image/x-icon" />
+   
+<style>
+  footer{
+    background-color: #2d486b;
+    color: #fff;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+   body a:active{
+      text-decoration: none;
+      text-decoration-line: none;
+      color: #fff;
+    }
+    body a:link{
+      text-decoration: none;
+      text-decoration-line: none;
+      color: #2d486b;
+    }
+    body a:visited{
+      text-decoration: none;
+      text-decoration-line: none;
+      color:#2d486b;
+    }
+   #carouselExampleIndicators{
+    max-width: 990px;
+    margin:0 auto;
+    }
+    
+    .btn_hover:hover{
+      text-decoration: none;
+      text-decoration-line: none;
+      background-color:#2d486b;
+      color: #fff;
+      border: 2px solid white;
+    }
+    .btn_hover:hover>a:visited {
+      text-decoration: none;
+      text-decoration-line: none;
+      color: #fff;
+    }
+    #slide_top {
+    position:fixed;
+    right:20px;
+    bottom:20px;
+    z-index:998;
+    display:none;
+    width:45px;
+    height:45px;
+	background:#9b9b9b;
+    text-indent:-9999px;
+    border: 1px solid #2d486b;
+	-webkit-transition:opacity .2s ease-in-out 0s, display .3s ease-in-out 0s;
+	-moz-transition:opacity .2s ease-in-out 0s, display .3s ease-in-out 0s;
+	-ms-transition:opacity .2s ease-in-out 0s, display .3s ease-in-out 0s;
+	-o-transition:opacity .2s ease-in-out 0s, display .3s ease-in-out 0s;
+	transition:opacity .2s ease-in-out 0s, display .3s ease-in-out 0s;
+}
+
+#slide_top:before {
+	content: "";
+	position: absolute;
+	top:16px;
+	left:18px;
+	border:5px solid transparent;
+	border-bottom-color: #dddddd;
+	webkit-transition:
+	border-color .2s ease-in-out;
+	-moz-transition:border-color .2s ease-in-out;
+	-ms-transition:border-color .2s ease-in-out;
+	-o-transition:border-color .2s ease-in-out;
+	transition:border-color .2s ease-in-out;
+}
+</style>
+    <title>AutoPeças Paraná</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body style="background: linear-gradient(100deg, white 45%, #9b9b9b 75%);">
+<div  id="anc0" class="container-fluid" style="display:flex ; justify-content:center; align-items:center; flex-direction:column;">
+<header style="display: flex; justify-content:center; align-items: center; width: 100%;">
+    <div class="content"><img src="./img/Logo_site.png" class="img-fluid rounded float-start" alt="logomarca auto peças paraná" style="margin: 12px;"></div>
+    <div style="display:flex; flex-direction: column; justify-content:left; align-items:left; text-align: right;  max-width: 90%; margin-top:0;">
+    <div style="margin-right: 10px; font-family: Arial, Helvetica, sans-serif; font-size: 16px; color: #2d486b; font-weight: bold;">Barreiras - Bahia</div>
+    <nav style="display:flex; background-color: #2d486b; justify-content: center; align-items: center;">
+        <button type="buttons" class="btn_hover" class="btn btn-primary" style=" margin: 1%; min-width: 23%;"><a href="#anc0">início</a></button>
+        <button type="button" class="btn_hover" class="btn btn-primary" style="  margin: 1%; min-width: 23%;"><a href="#anc1">Sobre Nós</a></button>
+        <button type="button" class="btn_hover"class="btn btn-primary"style="  margin: 1%; min-width: 23%;"><a href="#anc3">Fabricantes</a></button>
+        <button type="button" class="btn_hover" class="btn btn-primary" style="  margin: 1%; min-width: 23%;"><a href="#anc4">Contatos</a></button>
+    </nav>
+    <div id="content_contato" style="display: flex;">
+    <div style="color: #2d486b; text-align:left; font-size: 20px; font-weight: bold;margin-top: 7px; height: 22%; width: 40%;">Contato: (77)3613-8400</div><div style="font-weight:bold; width: 60%; text-align: right; margin-top: 7px; color: #2d486b;font-size: 17px; ">AUTOPECASPARANA<img src="./img/insta.png" alt="Instagram" style="padding: 3px;"><img src="./img/face.png" alt="facebook" style="padding: 3px;"><br>
+    </div></div>
+    <div style="justify-content: center; align-content: center;text-align: center; font-size: 27px; font-family:'Times New Roman', Times, serif; font-weight: bold; font-style: italic; font-variant: small-caps; color: #2d486b;">O Maior Estoque de Autopeças do Oeste Baiano</div>    
+</header>
+<div class="container-fluid">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/Slide1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/Slide2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/Slide3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</div>
+<div class="container-fluid" style="display:flex; flex-direction:row; justify-content:center ; align-items: center; max-width: 70%;">
+    <div><img src="./img/car1.png" style="padding: 10px;"></div><div id="anc1"><img src="./img/sobrenos.png" style="padding: 10px;"></div>
+</div>
+<div style="width: 74%; text-align: justify; color: #2d486b;"><h4><p>Nossa empresa é considerada pelos profissionais e usuários do setor reparador automotivo, como uma das mais sólidas estruturas da nossa região. Conheça aqui um pouco desta Empresa. Temos quartro lojas de autopeças, uma em Barreiras - BA, outra em Luis Eduardo Magalhães - BA Roda Velha -BA e em Posses -GO</p></h4></div>
+<div class="container-fluid">
+  <div class="row" style="margin:0 auto; max-width: 80%;">
+    <div class="col-sm-3 p-3" style="border: 2px solid #2d486b;"><h3>Barreiras</h3><p>Nome de Fantasia: Auto Peças Paraná
+      Endereço: AV Benedita Silveira, 161
+      Bairro: Centro
+      Cidade: Barreiras
+      Estado: Bahia
+      CEP: 47.800-130
+      Telefone: (77) 3613-8400 WhatsApp (77) 9 99719097
+      E-mail: gerencia@grupoparana.com.br</p>
+    </div>
+    <div class="col-sm-3 p-3" style="border: 2px solid #2d486b;"><h3>Luis E. Magalhães</h3><p>Nome de Fantasia: Auto Peças Paraná
+      Endereço: Avenida Enedino Alves da Paixão, 3814 Qd 06 Lote 04
+      E-mail: <small>compraslem@grupoparana.com.br</small>
+      Bairro:  Centro
+      Cidade: Luis Eduardo Magalhães
+      Estado: BA
+      Cep.: 47.850-000
+      Telefone: 77 3639 2900</p></div>
+    <div class="col-sm-3 p-3" style="border: 2px solid #2d486b;"><h3>São Desidério</h3><p>Nome de Fantasia: Auto Peças Paraná
+      Endereço: BR 020, KM 132, s/n Roda Velha
+      Município: São Desidério
+      Estado: Bahia
+      Cep.: 47.820-000
+      Telefone: 77 3684 2314
+      E-mail : wagnersmp@gmail.com</p></div>
+    <div class="col-sm-3 p-3"style="border: 2px solid #2d486b;"><h3>Posse</h3><p>Nome de Fantasia: Paraná Autopeças
+      Endereço: Rua Dr. Antonio Marcos Gouveia, 20 A
+      E-mail: appposse@grupoparana.com.br
+      Bairro: Centro
+      Cidade: Posse
+      Estada: GO
+      CEP.: 73.900-000
+      Telefone: (62) 3481-1415</p></div>
+  </div>
+</div>
+
+<div class="container-fluid" style="text-align: Center;"><img src="./img/foto1.png"> <img src="./img/foto2.png"></div>
+<div id="anc3" class="container-fluid" style="display:flex; justify-content: center; align-items: center; max-width: 60%; max-height: 60%; padding: 30px;">
+  <div><img src="./img/logo1.jpg" class="img-fluid" alt="..."><img src="./img/logo2.jpg" class="img-fluid" alt="..."><img src="./img/logo3.jpg" class="img-fluid" alt="..."></div>
+  <div><img src="./img/logo4.jpg" class="img-fluid" alt="..."><img src="./img/logo5.jpg" class="img-fluid" alt="..."><img src="./img/logo6.jpg" class="img-fluid" alt="..."></div><div><img src="./img/logo7.jpg" class="img-fluid" alt="..."><img src="./img/logo8.jpg" class="img-fluid" alt="..."><img src="./img/logo9.jpg" class="img-fluid" alt="..."></div>
+</div>
+<div  id="anc4" class="container-fluid" style="padding: 30px;">
+  <div class="row" style="margin:0 auto; max-width: 80%;">
+    <div class="col-sm-3 p-3" style="border: 2px solid #2d486b;"><h3>Barreiras</h3><p>
+           Telefone: (77) 3613-8400 WhatsApp (77) 9 99719097
+      E-mail: gerencia@grupoparana.com.br</p>
+    </div>
+    <div class="col-sm-3 p-3" style="border: 2px solid #2d486b;"><h3>Luis E. Magalhães</h3><p>
+     
+      E-mail: <small>compraslem@grupoparana.com.br</small>
+      Telefone: 77 3639 2900</p></div>
+    <div class="col-sm-3 p-3" style="border: 2px solid #2d486b;"><h3>São Desidério</h3><p>
+      Telefone: 77 3684 2314
+      E-mail : wagnersmp@gmail.com</p></div>
+    <div class="col-sm-3 p-3"style="border: 2px solid #2d486b;"><h3>Posse</h3><p>
+      E-mail: appposse@grupoparana.com.br
+      Telefone: (62) 3481-1415</p></div>
+  </div>
+</div>
+</div>
+<a href="#anc0" id="slide_top" style="display:inline ;">
+  ::before
+  <span id="slide_top_hover" style="opacity:0;"></span>
+</a>
+<footer style="text-align:center;">Grupo Paraná © 2022 - Todos os Direitos Reservados   | <b> Desenvolvido por: Webmaster: Gustavo Carvalho WebDesigner: Marcos Luiz</b></footer>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>   
+</body>
+</html>
